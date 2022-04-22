@@ -19,7 +19,6 @@ for(let title of titles){
         titreActifRemove.classList.remove("active");
         //On active le titre clické par l'utilisateur :
         let titreActiveAdd = document.querySelector("#titre"+num);
-        console.log(titreActiveAdd);
         titreActiveAdd.classList.add("active")
     })
 }
